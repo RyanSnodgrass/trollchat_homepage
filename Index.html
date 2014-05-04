@@ -1,46 +1,104 @@
-<!DOCTYPE html>
 <html>
-  
-  <head data-gwd-animation-mode="quickMode">
-    <title>Troll Chat</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="generator" content="Google Web Designer 1.0.6.0428">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  
-  <body>
-    <div class="gwd-div-3n5p">URL</div>
-    <div class="gwd-div-2gsr">http://www.youtube.com/watch?v=sFu5qXMuaJU</div>
-    <div class="gwd-div-ftpg" id="ytplayer"></div>
-
-<script>
-  // Load the IFrame Player API code asynchronously.
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/player_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-  // Replace the 'ytplayer' element with an <iframe> and
-  // YouTube player after the API code downloads.
-  var player;
-  function onYouTubePlayerAPIReady() {
-    player = new YT.Player('ytplayer', {
-      height: '390',
-      width: '640',
-      videoId: 'M7lc1UVf-VE'
-    });
-  }
-</script>
+<head>
+	<link href="application.css" rel="stylesheet" type="text/css">
+	<title></title>
 </head>
+<body>
+	<div class="navbar navbar-default">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="#">ChatDash</a>
+	  </div>
+	  <div class="navbar-collapse collapse navbar-responsive-collapse">
+	    <ul class="nav navbar-nav navbar-right">
+	      <li><a href="#">Logout</a></li>
+	    </ul>
+	  </div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-7">
+				<div class="form-group">
+				  <div class="input-group">
+				    <span class="input-group-addon">url</span>
+				    <input type="text" class="form-control">
+				    <span class="input-group-btn">
+				      <button class="btn btn-default" type="button">Dash</button>
+				    </span>
+				  </div>
+				</div>
+
+				    <div class="gwd-div-ftpg" id="ytplayer"></div>
+
+				<script>
+				  // Load the IFrame Player API code asynchronously.
+				  var tag = document.createElement('script');
+				  tag.src = "https://www.youtube.com/player_api";
+				  var firstScriptTag = document.getElementsByTagName('script')[0];
+				  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+				  // Replace the 'ytplayer' element with an <iframe> and
+				  // YouTube player after the API code downloads.
+				  var player;
+				  function onYouTubePlayerAPIReady() {
+				    player = new YT.Player('ytplayer', {
+				      height: '390',
+				      width: '640',
+				      videoId: 'M7lc1UVf-VE'
+				    });
+				  }
+					</script>
+				</div>
+			<div class="col-md-3">
+				<table class="table table-striped table-hover ">
+				  <thead>
+				    <tr>
+				      <th class="accent">TRENDING</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <td>Column content</td>
+				    </tr>
+				    <tr>
+				      <td>Column content</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+			<div class="col-md-1"></div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-7">
+				<h2>Title of Video</h2>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-7">
+				<div class="well well-lg">
+	  			<p class="accent">Retro Cosby</p> sweater aesthetic, typewriter kitsch 90's stumptown. 
+	  			<p class="accent">Lomo Tumblr</p> selfies, shabby chic Tonx Godard YOLO 3 wolf moon +1 mustache quinoa. 
+	  			<p class="accent">Viral fashion</p> axe narwhal chambray, Etsy occupy +1 ethnic. 
+	  			<p class="accent">XOXO Neutra</p> gluten-free paleo seitan biodiesel Truffaut single-origin
+	  			<p class="accent">Chia Art</p> party Pitchfork normcore, kitsch asymmetrical gastropub church-key. Trust fund gentrify umami mumblecore selvage fingerstache, flexitarian tote bag. Gentrify tofu seitan, synth street art hoodie jean shorts 8-bit American Apparel fap kale chips.
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+
 </body>
-
-    <div class="gwd-div-r8f6"></div>
-    <div class="gwd-div-j4oe"></div>
-    <div class="gwd-div-c99y"></div>
-    <div class="gwd-div-lgae"></div>
-    <div class="gwd-div-nhvt">&nbsp; SEND &nbsp;</div>
-    <div class="gwd-div-5ed3">&nbsp; TROLL &nbsp;</div>
-
-  </body>
-
 </html>
